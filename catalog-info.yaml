@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "idpspring7475"
+  description: "A component that is part of the DevSecOps catalog"
+  annotations:
+    
+    jenkins.io/job-full-name: idpspring7475-org/idpspring7475-job
+    
+
+    
+    sonarqube.org/project-key: default/idpspring7475
+    
+
+    
+    cloud-service/app-info: ""
+    aws.amazon.com/amazon-ecs-service-tags: ""
+    aws.amazon.com/cost-insights-tags: ""
+    
+
+    
+    
+    dependencytrack/project-id: ""
+    
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: user:platform-admin
+  lifecycle: experimental
